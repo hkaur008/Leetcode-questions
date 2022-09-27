@@ -1,5 +1,6 @@
 class Solution
 {
+    // min of adjacent above , adjacent left , adjacent diagonal gives the ans
     public:
         int maximalSquare(vector<vector < char>> &matrix)
         {
