@@ -27,7 +27,7 @@ public:
         if(n>=2)
         {
         int b =  ctoi(s[n-2]); 
-        if(b!=0 && b*10+a>=1 && b*10+a<=26)
+        if(b!=0 && b*10+a>=10 && b*10+a<=26)
             {   if(sum[n]==-1) sum[n]=0;
                 sum[n]+=decode(s,n-2, sum);
             }
@@ -35,7 +35,6 @@ public:
         
         if(sum[n]==-1) return sum[n]=0;
         return sum[n];
-        
         
     }
         
