@@ -12,7 +12,7 @@ class Solution
                 max_left[0] = 0;
                 int ml = heights[0];
 
-                max_right[n - 1] = 0;
+                max_right[n - 1] = 0;   // important 
                 int mr = heights[n-1];
                 
                 for (int i = 1; i < n; i++)
