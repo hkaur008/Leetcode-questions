@@ -10,8 +10,8 @@ class Solution
         for (int i = n; i < t.size(); i++)
         {
             if (s[p] == t[i])
-                if (helper(p + 1, i + 1, s, t) == 1)
-                    return 1;
+                return helper(p + 1, i + 1, s, t);
+            
         }
 
         return 0;
