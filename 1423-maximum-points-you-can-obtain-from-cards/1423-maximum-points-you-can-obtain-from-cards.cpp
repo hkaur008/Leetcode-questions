@@ -24,7 +24,7 @@ public:
             ans = min(ans , sum);
             hi++;
             lo++;
-            cout<< hi<<" "<<sum<<endl;
+            // cout<< hi<<" "<<sum<<endl;
 
         }
         
