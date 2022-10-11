@@ -3,7 +3,7 @@ class Solution
     public:
        
     int dp[500][500];
-        int helper(int p1, int p2, string word1, string word2)
+        int helper(int p1, int p2, string & word1, string & word2)
         {
             
             if(p1==word1.size()) // we need to insert rest element in word2
